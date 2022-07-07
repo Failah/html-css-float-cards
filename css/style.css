@@ -6,12 +6,21 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     font-family: sans-serif;
-}
+} */
 
 /* utilities */
 
-
+header {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* contents */
+
+#title {
+    color: #e53170;
+    height: 140px;
+    text-align: center;
+    padding-top: 50px;
+}
