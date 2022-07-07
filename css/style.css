@@ -12,7 +12,7 @@
 
 /* utilities */
 
-header {
+body {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -53,6 +53,20 @@ section>p {
     height: 120px;
 }
 
+.image {
+    float: left;
+}
+
 .margin1-2 {
     margin-right: 30px;
+}
+
+.infos {
+    float: left;
+    color: white;
+    padding: 10px 0px 0px 10px;
+}
+
+.email {
+    color: lightskyblue;
 }
