@@ -16,6 +16,16 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+img {
+    height: 120px;
+}
+
 /* contents */
 
 #title {
@@ -30,4 +40,19 @@ section>p {
     padding: 0 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+}
+
+.profiles {
+    padding: 40px 20px;
+}
+
+.profile-image {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    background-color: #0f0e17;
+    height: 120px;
+}
+
+.margin1-2 {
+    margin-right: 30px;
 }
